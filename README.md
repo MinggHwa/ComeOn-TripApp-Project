@@ -28,7 +28,7 @@ YOUNG CHILLER들을 위한 청량한 여행앱!
 
 |                             🐤강경민                             |                             🐻김종윤                             |                            🎧️신명화                            |                             🐇장효윤                             |
 | :--------------------------------------------------------------: | :--------------------------------------------------------------: | :-------------------------------------------------------------: | :--------------------------------------------------------------: |
-| ![캐릭터](https://avatars.githubusercontent.com/u/131448929?v=4) | ![캐릭터](https://avatars.githubusercontent.com/u/130979302?v=4) | ![캐릭터](https://avatars.githubusercontent.com/u/73214037?v=4) | ![캐릭터](https://avatars.githubusercontent.com/u/101866872?v=4) |
+| ![캐릭터](https://github.com/FRONTENDSCHOOL6/1st-ComeOn-TripApp/assets/131448929/486aadd9-cfbe-423f-92e4-71dc7198e19f) | ![캐릭터](https://github.com/FRONTENDSCHOOL6/1st-ComeOn-TripApp/assets/131448929/1ea4b6b3-ff87-48b1-8eb1-3996b8720140) | ![캐릭터](https://avatars.githubusercontent.com/u/73214037?v=4) | ![캐릭터](https://github.com/FRONTENDSCHOOL6/1st-ComeOn-TripApp/assets/131448929/3f474a9b-d758-4b3f-a798-0edc64f6cdda) |
 |            [Github 주소](https://github.com/minomad)             |            [Github 주소](https://github.com/whddbsl)             |         [Github 주소](https://github.com/MyoungHwaShin)         |             [Github 주소](https://github.com/HYHYJ)              |
 
 <br/>
