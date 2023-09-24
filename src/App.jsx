@@ -6,7 +6,13 @@ import { Suspense } from 'react';
 import Spinner from './components/Spinner';
 import router from './routes';
 
-const querClient = new QueryClient();
+const querClient = new QueryClient({
+  defaultOptions: {
+    queries: {
+      cacheTime: 30 * 60 * 1000,
+    },
+  },
+});
 
 function App() {
   return (
