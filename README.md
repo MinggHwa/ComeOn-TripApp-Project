@@ -76,7 +76,18 @@ YOUNG CHILLER들을 위한 청량한 여행앱!
 
 <br/>
 
+## 🛠️ 트러블슈팅 & 기술적 도전
 
+### ⚠️ 입력 시 리렌더링 과다 발생 (디바운스 도입)
+
+- **문제상황**: 비밀번호 입력창에서 한 글자 입력할 때마다 `console.log`가 계속 출력되고 전체 컴포넌트가 리렌더링됨
+- **원인분석**: `onChange` 이벤트에서 `setState()`가 호출될 때마다 렌더링 → 성능 저하 발생  
+  특히 `console.log(password)`로 디버깅할 때 **한 글자 입력마다 로그가 찍혀** 리렌더링이 과도함을 확인함
+- **해결방법**: `debounce` 유틸을 적용하여, **입력이 끝난 뒤 일정 시간 후에만 상태 업데이트**하도록 최적화  
+  → `setPassword()`를 1000ms 디바운스로 감쌈
+- **개선 후 효과**: 렌더링 횟수가 눈에 띄게 줄고, DevTools에서 불필요한 리렌더링이 사라짐
+- **배운 점**: 입력값 처리 시 항상 실시간 반응이 필요한지 판단하고,  
+  필요 시 `debounce` 또는 `throttle`로 최적화하면 UX와 성능을 모두 잡을 수 있다.
 
 <br/>
 
@@ -102,8 +113,6 @@ YOUNG CHILLER들을 위한 청량한 여행앱!
 | ![1:1문의](https://github.com/FRONTENDSCHOOL6/1st-ComeOn-TripApp/assets/131448929/7f199b46-eb2f-4d3f-bf2e-1c5061dbe6b4) | ![문의내역](https://github.com/FRONTENDSCHOOL6/1st-ComeOn-TripApp/assets/131448929/6b01e02f-b3be-4ae2-89f5-6409848fc61a) | ![회원탈퇴](https://github.com/FRONTENDSCHOOL6/1st-ComeOn-TripApp/assets/131448929/956dad52-24e7-46e8-a8c5-d0d34b53c18b) |
 
 <br/>
-
-## 💬 트러블 슈팅
 
 ## 📁프로젝트 구조
 
